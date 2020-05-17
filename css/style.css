@@ -1,0 +1,103 @@
+body {
+  background-color: #333333;
+  color: #FFEEEE;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Header configuration */
+#header {
+  height: 81px;
+  background-color: #000000;
+  width: 100%;
+  text-align: right;
+  color: #FFEEEE;
+  font-family: Arial,Tahoma,Helvetica,Geneva,sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Footer configuration */
+#footer {
+  height: 74px;
+  color: #FFEEEE;
+  background-color: #000000;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer .links {
+  float: right;
+  margin-right: 18px;
+  margin-top: 9px;
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+}
+
+#footer .webLinks {
+  text-align: right;
+}
+
+span.footer {
+  padding-right: 4px;
+  padding-left: 5px;
+}
+
+#footer .copyright {
+  font: 9px Arial, Verdana, sans-serif;
+  padding-top: 9px;
+  margin-left: 18px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #979592;
+  margin-bottom: 25px;
+}
+
+/* Customization of fields */
+.requiredField {
+  background-color: #dff0fa;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #013145;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+#depot {
+  border:5px #AA3333 dashed;
+  background-color: #FFAAAA;
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+}
+
+/* Loader */
+#loader {
+  display: none;
+}
+
+.total {
+  font-weight: bold;
+  color: #FF3333;
+}
